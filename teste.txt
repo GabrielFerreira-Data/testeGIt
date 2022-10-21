@@ -1,0 +1,21 @@
+git merge -s ours --no-commit --allow-unrelated-histories <nome do merge de origem>
+
+git add .
+
+git commit -m <nome do comentário>
+
+git push
+
+git merge <nome do branch de origem>
+
+Próximos merge na main
+
+git checkout <nome merge main>
+
+git merge <nome do branch de origem>
+
+git add .
+
+git commit -m <nome do comentário>
+
+git push
